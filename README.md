@@ -194,14 +194,14 @@ Point-Cache is totally *training-free* and can operate in comparable efficiency 
 ## Citation
 1. If you find our paper and code are helpful for your project or research, please cite our work as follows.  
     ```bibtex
-    @inproceedings{sun25pointcache,
-        title={Point-Cache: Test-time Dynamic and Hierarchical Cache for Robust and Generalizable Point Cloud Analysis},
-        author={Sun, Hongyu and Ke, Qiuhong and Cheng, Ming and Wang, Yongcai and Li, Deying and Gou, Chenhui and Cai, Jianfei},
-        booktitle={2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-        year={2025},
-        pages={1263-1275},
-        doi={10.1109/CVPR52734.2025.00126}
-    }
+      @inproceedings{sun25pointcache,
+          title={Point-Cache: Test-time Dynamic and Hierarchical Cache for Robust and Generalizable Point Cloud Analysis},
+          author={Sun, Hongyu and Ke, Qiuhong and Cheng, Ming and Wang, Yongcai and Li, Deying and Gou, Chenhui and Cai, Jianfei},
+          booktitle={2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+          year={2025},
+          pages={1263-1275},
+          doi={10.1109/CVPR52734.2025.00126}
+      }
     ```
 
 ## Acknowledgement
