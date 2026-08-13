@@ -1,3 +1,5 @@
+
+
 # Point-Cache
 This repository is the official implementation of the CVPR 2025 paper ["Point-Cache: Test-time Dynamic and Hierarchical Cache for Robust and Generalizable Point Cloud Analysis"](http://arxiv.org/abs/2503.12150).
 
@@ -28,7 +30,7 @@ In practice, a majority of models remain vulnerable to distribution shifts, such
   # NOTE The option 1 is recommended. A complete package list is provided in `env.yaml`
   # option 1: create conda virtual env by your own
   conda create -n pointcache python=3.8.16
-  codna activate pointcache
+  conda activate pointcache
   # install torch
   pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
   # install dassl
@@ -38,7 +40,7 @@ In practice, a majority of models remain vulnerable to distribution shifts, such
 
   # option 2: create conda virtual env according to the provided env.yaml
   conda env create -f env.yaml
-  codna activate pointcache
+  conda activate pointcache
 ```
 
 `pueue` is a shell command management software, we use it for scheduling the model training & evaluation tasks, please refer to the [official page](https://github.com/Nukesor/pueue) for installation and basic usage. We recommend this tool because under its help you can run the experiments at scale thus save your time.
